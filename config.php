@@ -10,15 +10,15 @@
     define('HOST','localhost');
     define('USER','root');
     define('PASSWORD','');
-    define('DATABASE','my_website');
+    define('DATABASE','randplay');
 
     //Constantes para o painel de controle
     define('NOME_EMPRESA','randPlay');
 
-    //Funções do Painel
-    // function pegaCargo($indice){
-    //     return Painel::$cargos [$indice];
-    // }
+    // Funções do Painel
+    function pegaCargo($indice){
+        return Painel::$cargos [$indice];
+    }
 
     function selecionadoMenu($par){
         // <i class="fa fa-angle-double-right" aria-hidden="true"></i>

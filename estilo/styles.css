@@ -772,6 +772,184 @@ article#sign form{
     margin-top: 30px;
 }
 
+/*About Us*/
+
+section#aboutus{
+    height: calc(100vh - 80px);
+    margin-bottom: -150px;
+    padding: 25px 100px;
+}
+section#aboutus article.box-container{
+    margin-bottom: 15px;
+}
+article.box-container h1{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+article.box-container h2{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+article.box-container p{
+    font-size: 12px;
+    color:#cacaca;
+}
+article.box-container p > span{
+    font-size: 12px;
+    color: #1ec0d9;
+}
+section#aboutus button{
+    margin-top: 20px;
+    width: 250px;
+    height:60px;
+    background-color: #173d7f;
+    border: none;
+    border-radius: 5px;
+}
+section#aboutus button:hover{
+    cursor: pointer;
+    background-color: #122f62;
+}
+section#aboutus button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+/*Contact*/
+
+section#contact{
+    height: calc(100vh - 80px);
+}
+section#contact form{
+    height: 100%;
+    width: 50%;
+    padding: 25px 100px;
+    display: flex;
+    flex-direction: column;
+}
+section#contact form h1{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section#contact form select{
+    padding-left: 12px;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius:5px;
+    border: 1px solid #00acee;
+    caret-color: #173d7f;
+    outline-color: #173d7f;
+}
+section#contact form input{
+    padding-left: 12px;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius:5px;
+    border: 1px solid #00acee;
+    caret-color: #173d7f;
+    outline-color: #173d7f;
+}
+section#contact form textarea{
+    padding-left: 12px;
+    padding-top: 10px;
+    width: 500px;
+    margin-bottom: 40px;
+    border-radius:5px;
+    border: 1px solid #00acee;
+    caret-color: #173d7f;
+    outline-color: #173d7f;
+}
+section#contact form button{
+    width: 200px;
+    height: 50px;
+    border-radius:5px;
+    border: none;
+    background-color: #173d7f;
+    color: #fff;
+    font-size: 18px;
+}
+section#contact form button:hover{
+    background-color:#122f62;
+    cursor: pointer;
+}
+
+/*News*/
+
+section#news{
+    height: 100%;
+    padding: 25px 100px;
+    margin-bottom: -160px;
+}
+section#news h1{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+section#news p{
+    color: #aeaeae;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+section#news hr{
+    border: 1px solid #aeaeae;
+    margin-bottom: 8px;
+}
+section#news section#container-news{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section#container-news article.box-container{
+    width: 500px;
+    height:380px;
+    margin: 30px 25px;
+}
+section#container-news article.box-container img{
+    width: 500px;
+    height: auto;
+}
+section#container-news article.box-container .box-container-news{
+    background-color: #fff;
+    width: 470px;
+    padding: 15px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 15px;
+}
+section#container-news article.box-container .box-container-news time{
+    font-size: 21px;
+    color:#737373;
+}
+section#container-news article.box-container .box-container-news h1{
+    margin-top: 12px;
+    color: #515151;
+}
+section#container-news article.box-container .box-container-news p{
+    font-size: 12px;
+    color:#737373;
+}
+section#container-news article.box-container .box-container-news hr{
+    margin: 8px 0;
+    border: 1px solid #737373;
+}
+section#container-news article.box-container .box-container-news a{
+    color:#173d7f;
+    text-decoration: none;
+    margin: 5px 0;
+}
+section#container-news article.box-container .box-container-news a:hover{
+    text-decoration: underline;
+    color: #122f62;
+}
+
+
 
 
   

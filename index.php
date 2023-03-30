@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="estilo/styles.css" rel="stylesheet" />
     <meta http-equiv="pragma" content="no-cache" />
-    <meta name="keywords" content="palavras-chave, do, meu, site">
-    <meta name="description" content="Portfólio">
+    <meta name="keywords" content="Criação de campeonatos de futebol randomicos, gerenciamento, criação">
+    <meta name="description" content="Criar campeonatos">
     <meta name="author" content="Ariel Lopes">
     <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
     <title>Crie seu Campeonato</title>
@@ -70,11 +70,10 @@
     <footer>
         <nav id="links">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre Nós</a></li>
-                <li><a href="">Novidades</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Suporte</a></li>
+                <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                <li><a href="<?php echo INCLUDE_PATH; ?>aboutus">Sobre Nós</a></li>
+                <li><a href="<?php echo INCLUDE_PATH; ?>news">Novidades</a></li>
+                <li><a href="<?php echo INCLUDE_PATH; ?>contact">Contato e Suporte</a></li>
             </ul>
         </nav>
         <nav id="politics">
