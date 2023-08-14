@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+*:before, *:after{
+    box-sizing: border-box;
+}
+
+/**Boot CSS**/
+body{
+    overflow-x: hidden;
+}
+.center {
+    max-width: 1280px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.w50 {
+    padding: 0 10%;
+    width: 50%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+/*Estilização*/
+body{
+    height: 100%;
+}
+aside{
+    position: fixed;
+    width:300px;
+    height: 100%;
+    background-color: green;
+    overflow-y: visible;
+}
+#main{
+    background-color: red;
+    height: 100%;
+    width:calc(100% - 300px);
+    overflow-y:visible;
+}
+#main header{
+    background-color:blue;
+    height:80px;
+}
+#main header i{
+    width: 30px;
+    margin: 25px 25px;
+    font-size: 30px;
+    background-color: orange;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#main header h1{
+    width: 400px;
+    font-size: 28px;
+    background-color: pink;
+}
+#main header button{
+
+}
+#main header button a{
+
+}
+#main header button a i{
+    font-size: 20px;
+    margin: 0;
+    display: inline;
+}
