@@ -47,19 +47,33 @@ aside .box-aside{
     flex-direction: column;
 }
 aside .profile{
-    justify-content: center;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
-    padding: 15px 0;
+    padding: 15px;
 }
 aside .profile img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
-aside .profile p{
-    margin-top: 10px;
+aside .profile #name{
+    display: flex;
+    flex-direction: column;
+}
+aside .profile #name p{
+    margin-left: 20px;
     color: #ccc;
-    font-size: 14px;
+    font-size: 16px;
+}
+aside .profile #name p:nth-child(2){
+    margin-top: 5px;
+    font-size: 13px;
+}
+aside .profile #name p i{
+    color: rgb(16, 175, 16);
+    margin-right: 7px;
+    font-size: 15px;
 }
 aside .lastaccess,
 aside .all{
@@ -112,11 +126,11 @@ aside .all a{
 }
 #main header #initialpage{
     width: 150px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 #main header #getout{
     width: 70px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #main header button a{
     font-size: 16px;
@@ -137,5 +151,5 @@ aside .all a{
 }
 #main main .container-main p{
     padding: 15px;
-    background-color: blue;
+    /* background-color: blue; */
 }
